@@ -41,7 +41,7 @@ body{
     font-family:'Raleway',sans-serif;
     font-weight:200;
     padding-top:180px; 
-    line-height:160%;
+    line-height:150%;
     color:#fff;
 }
 .active{
@@ -97,6 +97,10 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
    
+}
+
+.padding40{
+    padding-top:40px;
 }
 
 @media (max-width: 768px) {
