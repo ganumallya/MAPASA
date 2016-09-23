@@ -1,0 +1,123 @@
+
+
+body{
+    padding:50px 0px 0px 0px;
+    align:center;
+    z-index:0;
+}
+
+#started{
+    font-family: 'Raleway', sans-serif;
+    font-weight:100;
+    font-size:25px;
+    color:#fff;
+}
+
+.jumbotron{
+    margin-bottom: 0px;
+    background: dodgerblue; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #348ac7 , #7474bf); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #348ac7, #7474bf); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #348ac7, #7474bf); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #348ac7 , #7474bf); /* Standard syntax */
+    
+}
+
+.font_header{
+    font-family:'Raleway', sans-serif;
+    font-weight:800;
+}
+
+.font_subheader{
+    font-family:'Raleway',sans-serif;
+    font-weight:300;
+    color:#fff;
+}
+
+.font_subheader_bold{
+    font-weight:700;
+}
+.aboutus{
+    font-family:'Raleway',sans-serif;
+    font-weight:200;
+    padding-top:180px; 
+    line-height:160%;
+    color:#fff;
+}
+.active{
+    background:#000;
+}
+
+.navbar-default  {
+    background:#2574a9;
+    color:#fff;
+}
+.navbar-default .navbar-brand{
+    color:#fff;
+}
+.navbar-default .navbar-brand:hover{
+    color:#fff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background: #174869;
+}
+
+
+.navbar-default .navbar-nav>li>a
+ {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li> a:hover{
+     background: #174869;
+    color:#fff;
+}
+
+.section03_header{
+    color:#2574a9;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size:25px;
+}
+.section03_content{
+    color:#000;
+    font-family:'Roboto', sans-serif;
+    font-weight:300;
+    font-size:15px;
+}
+#section03{
+    padding-top:50px;
+}
+#section02{
+    padding-top:50px;
+    background-image: url("../Png/pexels-photo-87283-large.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+@media (max-width: 768px) {
+  .home_page {
+    padding-top:0px;
+     
+  }
+    .home_page1{
+        padding-top:0px;
+    }
+    #started{
+         font-size:15px;
+    }
+}
+
+@media (min-width: 900px) {
+  .home_page{
+    padding-top:100px;
+  }
+  
+    .home_page1{
+        padding-top:50px;
+    }
+}

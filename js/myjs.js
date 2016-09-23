@@ -1,0 +1,15 @@
+$(document).ready(function () {
+    
+   $('section').css("min-height", $(window).height());
+   $('.jumbotron').css("min-height", $(window).height());
+    
+     $(function() {
+      $('a[href*="#section"]').click(function() {
+          var target = $(this.hash);
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+      });
+    });
+});
