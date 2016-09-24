@@ -38,7 +38,7 @@ body{
     font-weight:700;
 }
 .aboutus{
-    font-family:'Raleway',sans-serif;
+    font-family:'raleway',sans-serif;
     font-weight:200;
     padding-top:180px; 
     line-height:150%;
@@ -93,7 +93,7 @@ body{
 }
 #section02{
     padding-top:50px;
-    background-image: url("../Png/pexels-photo-87283-large.jpeg");
+    background-image: url("../Png/pexels-photo-87283-large.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
    
@@ -101,6 +101,14 @@ body{
 
 .padding40{
     padding-top:40px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display:block;
 }
 
 @media (max-width: 768px) {
