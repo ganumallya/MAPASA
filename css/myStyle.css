@@ -109,22 +109,27 @@ body{
 }
 
 .modal-body .logininnerlink{
-    color:white;
+    color:#ada6a6;
     font-size:12px;
 }
-
+#signmodalbutton , #loginmodalbutton{
+    transition: 0.3s;
+   
+}
 .modal-body .logininnerlink:hover,.modal-body .logininnerlink:focus,.modal-body .logininnerlink:visited,.modal-body .logininnerlink:active{
-    color:white;
-    font-size:18px;
+    color:#ada6a6;
+    font-size:12px;
     font-weight:800;
 }
 #signmodalbutton:hover , #signmodalbutton:active, #signmodalbutton:focus,
 #loginmodalbutton:hover, #loginmodalbutton:active, #loginmodalbutton:focus{
     color:white;
+    text-decoration: none;
+    
 }
 .activemodal{
      color:white;
-    font-size:18px;
+    font-size:15px;
     font-weight:800;
 }
 
