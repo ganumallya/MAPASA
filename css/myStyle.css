@@ -103,6 +103,31 @@ body{
     padding-top:40px;
 }
 
+.modal-content{
+    background-color: rgba(101,94,169,0.8);
+    color:white;
+}
+
+.modal-body .logininnerlink{
+    color:white;
+    font-size:12px;
+}
+
+.modal-body .logininnerlink:hover,.modal-body .logininnerlink:focus,.modal-body .logininnerlink:visited,.modal-body .logininnerlink:active{
+    color:white;
+    font-size:18px;
+    font-weight:800;
+}
+#signmodalbutton:hover , #signmodalbutton:active, #signmodalbutton:focus,
+#loginmodalbutton:hover, #loginmodalbutton:active, #loginmodalbutton:focus{
+    color:white;
+}
+.activemodal{
+     color:white;
+    font-size:18px;
+    font-weight:800;
+}
+
 .hide{
     display: none;
 }
