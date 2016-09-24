@@ -6,12 +6,22 @@ $(document).ready(function () {
     $('#loginmodalbutton').click(function(){
         $('#signmodal').addClass("hide");
         $('#loginmodal').removeClass("hide");
+        $(this).addClass("activemodal");
+        $(this).removeClass("logininnerlink");
+        $('#signmodalbutton').addClass("logininnerlink");
+        $('#signmodalbutton').removeClass("activemodal");
     });
                           
     $('#signmodalbutton').click(function(){
         $('#loginmodal').addClass("hide");
         $('#signmodal').removeClass("hide");
+        $(this).addClass("activemodal");
+        $(this).removeClass("logininnerlink");
+        $('#loginmodalbutton').addClass("logininnerlink");
+         $('#loginmodalbutton').removeClass("activemodal");
     });
+    
+    
     
      $(function() {
       $('a[href*="#section"]').click(function() {
